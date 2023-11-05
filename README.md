@@ -69,13 +69,15 @@
 
 ### Prerequisite installer
 
-Install mongocxx, blocksci, cpprestsdk
+Install mongocxx, blocksci, cpprestsdk, nlohmann/json
 
 > https://mongocxx.org/mongocxx-v3/installation/linux
 >
 > https://github.com/citp/BlockSci
 >
-> https://github.com/microsoft/cpprestsdk
+> https://github.com/microsoft/cpprestdk
+>
+> https://github.com/nlohmann/json
 
 ### Setting in main
 
