@@ -79,15 +79,12 @@ Install mongocxx, blocksci, cpprestsdk, nlohmann/json
 >
 > https://github.com/nlohmann/json
 
-### Setting in main
+### Setting Environment
 
-```cpp
-std::string mongoUri = "mongodb://username:password@localhost:27017";
-blocksci::Blockchain chain("BlockSCI-setting-file-location");
-
-// "address:port"
-// address : 0.0.0.0 -> Access anyware, 127.0.0.1 -> Access localhost
-utility::string_t url = U("http://0.0.0.0:4000");
+```bash
+export MONGO_URI=mongodb://username:password@localhost:27017
+export BLOCKSCI_SETTING=BlockSCI-setting-file-location
+export SERVER_URL=http://0.0.0.0:4000
 ```
 
 ### Compile and start
