@@ -21,7 +21,7 @@
 
 ## 🔗 아키텍처
 
-![KakaoTalk_20231105_152757837](https://github.com/dev1ck/bitcoin-tracking-detecting-solution-web/assets/96347313/63c07d38-7900-4342-8d69-5d7c832cd396)
+![architecture](https://github.com/dev1ck/bitcoin-tracking-detecting-solution-web/assets/96347313/7c1ca35f-d67b-4469-943a-bce437e27f76)
 
 > Web-Server : [https://github.com/dev1ck/bitcoin-tracking-detecting-solution-web](https://github.com/dev1ck/bitcoin-tracking-detecting-solution-web)
 >
