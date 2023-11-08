@@ -84,12 +84,12 @@ Install mongocxx, blocksci, cpprestsdk, nlohmann/json
 ```bash
 export MONGO_URI=mongodb://username:password@localhost:27017
 export BLOCKSCI_SETTING=BlockSCI-setting-file-location
-export SERVER_URL=http://0.0.0.0:4000
+export SERVER_URL=http://0.0.0.0:port # local 접속만 허용 시 127.0.0.1
 ```
 
 ### Compile and start
 
 ```Bash
 > make
-> ./info-server
+> ./core-server
 ```
